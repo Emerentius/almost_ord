@@ -12,8 +12,8 @@ use ord_var::*;
 //use std::iter::MinMaxResult;
 
 /////////////////////////////////////////////////////////////////////
-pub trait AlmostOrdIterExt<T>: Iterator
-	where <T as Iterator>::Item: AlmostOrd
+pub trait AlmostOrdIterExt<T: Iterator>: Iterator
+	where T::Item: AlmostOrd
 {
 	/// Consumes the entire iterator to return the maximum element.
 	/// Values outside the ordered subset as given by `.is_outside_order()` are ignored.

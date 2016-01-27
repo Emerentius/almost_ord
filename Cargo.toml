@@ -1,9 +1,9 @@
 [package]
 name = "almost_ord"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Emerentius"]
 
 license = "MIT/Apache-2.0"
 repository = "https://github.com/emerentius/almost_ord"
 
-description = "THIS CRATE WAS RENAMED TO ord_subset. It contains tools for working with the Ord subset of certain PartialOrd types, like floats. The crate under this name will no longer be updated. If you wish to take the name for yourself, please contact me on GitHub."
+description = "This crate was renamed to ord_subset. The 'almost_ord' crate will not be updated. If you wish to take the name for yourself, please contact me on GitHub."
